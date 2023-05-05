@@ -3,12 +3,12 @@
 # first two characters of each string
 
 # Write a python function
-from paramiko import Agent
+
 
 
 def sentence(string1, string2):
-    string1_swapped = string1[::2] + string2[::-2]
-    string2_swapped = string1[::2] + string2[::-2]
+    string1_swapped = string1[::3] + string2[::3]
+    string2_swapped = string1[::3] + string2[::3]
     
     string3 = f"{string1_swapped} {string2_swapped}"
     return string3
@@ -104,6 +104,3 @@ print(new_words)
 
 
 
-#  Write a Python program to convert a list to a list of dictionaries.
-
-Sample lists: ["Black", "Red", "Maroon", "Yellow"], ["#000000", "#FF0000", "#800000", "#FFFF00"]
