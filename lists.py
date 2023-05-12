@@ -41,7 +41,7 @@ new_nums = find_second(input_numbers)
 def leep_year(year):
     if year % 4 == 0:
         return True
-    elif:
+    
     year % 4 != 0
     return False
 
